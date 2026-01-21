@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para o Amor da Minha Vida 🤍</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- PWA -->
+<link rel="apple-touch-icon" href="icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+
+<body>
+<div class="hearts"></div>
+<div class="sparkles"></div>
+
+<div class="container">
+  <div id="start" class="screen active">
+    <h1>Tenho algo especial pra você 🤍</h1>
+    <button onclick="start()">Começar</button>
+  </div>
+
+  <div id="content" class="screen">
+    <p id="text"></p>
+    <img id="photo">
+  </div>
+
+  <div id="final" class="screen">
+    <div class="big-heart">🤍</div>
+    <h2>EU TE AMO</h2>
+  </div>
+</div>
+
+<audio id="music" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
